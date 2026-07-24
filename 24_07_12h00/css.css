@@ -1,0 +1,136 @@
+@import url('https://fonts.google.com/specimen/Nunito?query=nuni&preview.script=Latn');
+
+@font-face {
+    font-family: 'Lovelo-Line';
+    src: url('fonte/Lovelo\ Line\ Bold.otf') format('opentype');
+    font-weight: bold;
+    font-style: normal;
+}
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+
+body{
+	background-color:#002f31;
+	font-size:16px;
+	margin: 0;
+	color:white;
+}
+
+.principal{
+	background-color: #081827;
+	width:90%;
+	margin: 0 auto;
+	border-left: solid #14585a 4px;
+	border-right: solid #14585a 4px;
+	height:auto;
+	width: 80%;
+}
+
+.menu{
+	background:#155759;
+	padding:20px;
+	width:75%;
+	height: 100px;
+	border-bottom-right-radius: 30px;
+}
+
+.inicio{
+	margin-left: 20px;
+	width: 6%;
+}
+
+.time{
+	margin-left: 50px;
+	width: 6%;
+}
+
+.conteudo{
+	padding:10px;
+	text-align:justify;
+	color:white;
+	margin-top:10px;
+}
+
+.texto{
+	font-size: 20px;
+	font-weight: lighter;
+	background-color: #14585a;
+	padding: 10px;
+	color: white;
+	max-width: 70%;
+	text-align: justify;
+	margin:20px auto 20px;
+	margin-top: 40px;
+	border-radius: 15px;
+
+}
+
+.tituloo{
+	text-align: center;
+}
+
+.tituloPrincipal{
+	font-size: 50px;
+}
+
+.separador1{
+    width:760px;
+    max-width:80%;
+    height:2px;
+    background:#1b6d73;
+    margin:20px auto 20px;
+}
+
+
+.flutuante{
+	width:330px;
+	margin:10px;
+	margin-left: 40px;
+	float:left;
+	background:#14585a;
+	padding:10px;
+	border-radius: 5%;
+}
+
+.flutuante2{
+	width:330px;
+	margin:10px;
+	margin-left: 40px;
+	float:right;
+	background:#14585a;
+	padding:10px;
+	border-radius: 5%;
+}
+
+.tituloImagem{
+	font-size: 30px;
+	margin-top: 10px;
+}
+
+h3{
+	font-size: 23px;
+	font-weight: normal;
+}
+
+.imagensFlutuante{
+	border-radius: 10px;
+	width: 100%;
+}
+
+.seta{
+	margin-left: 75%;
+}
+
+.limpar{
+	clear:both;
+}
+
+a{
+	color:white;
+	font-weight:bold;
+	text-decoration:None;
+}

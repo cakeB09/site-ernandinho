@@ -1,0 +1,133 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+
+body{
+    background:#07192B;
+    color:white;
+}
+
+.principal{
+    width:1200px;
+	max-width: 90%;
+	margin: 0 auto;
+	border-left: solid #14585a 4px;
+	border-right: solid #14585a 4px;
+	height:800px;
+}
+
+.menu{
+	background:#155759;
+	padding:20px;
+	width:75%;
+	height: 100px;
+	border-bottom-right-radius: 30px;
+}
+
+.inicio{
+    margin-left: 20px;
+    width: 6%;
+}
+
+
+.container{
+    width:1200px;
+    margin:auto;
+    padding:30px;
+}
+
+/* MENU */
+
+.menu{
+    display:flex;
+    justify-content:flex-end;
+    gap:25px;
+    color:#bdbdbd;
+    margin-bottom:25px;
+}
+
+.ativa{
+    color:white;
+    font-weight:bold;
+}
+
+/* TÍTULOS */
+
+h1{
+    text-align:center;
+    font-size:50px;
+}
+
+h2{
+    text-align:center;
+    font-weight:normal;
+    margin-bottom:20px;
+}
+
+.linha{
+    width:700px;
+    height:3px;
+    background:#245b66;
+    margin:auto;
+    border-radius:30px;
+}
+
+/* CAIXA SUPERIOR */
+
+.caixaSuperior{
+    width:100%;
+    background:#16595D;
+    border-radius:18px;
+    margin-top:30px;
+    padding:30px;
+    text-align:center;
+}
+
+.caixaSuperior p{
+    margin-bottom:15px;
+    font-size: 24px;
+
+}
+
+/* PARTE INFERIOR */
+
+.conteudo{
+    margin-top:35px;
+}
+
+/* ESQUERDA */
+
+.esquerda{
+    width:48%;
+}
+
+.esquerda img{
+    width:100%;
+    border-radius:10px;
+}
+
+.esquerda p{
+    margin-top:18px;
+    margin-bottom:18px;
+    text-align:justify;
+    font-size: 24px;
+
+}
+
+/* DIREITA */
+
+.direita{
+    width:46%;
+    background:#16595D;
+    border-radius:18px;
+    padding:25px;
+}
+
+.direita p{
+    text-align:justify;
+    margin-bottom:35px;
+    font-size: 24px;
+
+}
